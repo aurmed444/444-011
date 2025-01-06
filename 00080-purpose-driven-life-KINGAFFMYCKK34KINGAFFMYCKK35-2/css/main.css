@@ -1,0 +1,170 @@
+body {
+  font-size: 16px;
+  font-family: "Futura", sans-serif !important;
+}
+
+.modal-content {
+  border: 0px !important;
+}
+
+.page-container {
+  /* min-height:100vh; */
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.mid {
+  background-image: url(../images/bg.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 11vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mid_header {
+  width: 69%;
+  margin-top: 4vw;
+}
+
+.scroll {
+  width: 67%;
+}
+
+.box {
+  background-image: url(../images/box-bg.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0vw 15vw;
+  margin: 0 0 4vw 0;
+}
+
+.cta1 {
+  width: 43%;
+  margin: -3vw 0 1vw 0;
+}
+
+.timer {
+  color: black;
+  font-size: 3vw;
+  font-weight: bold;
+  margin: 2vw 0vw;
+}
+
+.chance {
+  width: 43%;
+  margin-top: 2vw;
+  padding-bottom: 17vw;
+}
+
+.line_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1vw 0;
+}
+
+.try {
+  width: 26%;
+  padding: 0 1vw;
+  cursor: pointer;
+}
+
+.banner {
+  width: 84%;
+  margin-bottom: 2vw;
+}
+
+.podium {
+  width: 100%;
+}
+
+.pop {
+  width: 100%;
+}
+
+.modal-content {
+  background-color: #fff0;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
+
+@media (max-width: 319px) {
+}
+
+@media (min-width: 320px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (max-width: 767px) {
+  .mid {
+    background-image: url(../images/bg-mobile.png);
+    height: 283vw;
+    padding-top: 27vw;
+  }
+
+  .mid_header {
+    width: 95%;
+    margin-top: 3vw;
+  }
+
+  .scroll {
+    width: 94%;
+    margin: 4vw 0;
+  }
+
+  .box {
+    padding: 0vw 0vw;
+    margin: 0 0 10vw 0;
+  }
+
+  .cta1 {
+    width: 66%;
+  }
+
+  .try {
+    width: 32%;
+  }
+
+  .chance {
+    width: 70%;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
