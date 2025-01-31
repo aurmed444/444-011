@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    src: url("./Montserrat-Medium.ttf") format('opentype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    src: url("./Montserrat-ExtraBold.ttf") format('opentype');
+}
+
+body {
+    background: rgb(0,6,18);
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.btn-drop-shadow {
+    filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.46));
+}
+
+.main-bg {
+    background: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-bg::before {
+    content: "";
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(15px) brightness(.6);
+}
+
+.animate-logo {
+    transition: top 0.5s ease-in-out;
+}
+  
+.animate-logo.open {
+    top: 48%;
+}
+
+.animate-top-env {
+    transition: top 0.2s ease-in-out;
+}
+
+.animate-top-env.open {
+    top: -10.2%;
+}
+
+.perspective-1k {
+    perspective: 1000px;
+}
+
+.footer-parent {
+    -webkit-box-shadow: 0px -17px 12px -3px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px -17px 12px -3px rgba(0,0,0,0.43);
+    box-shadow: 0px -17px 12px -3px rgba(0,0,0,0.43);
+}
